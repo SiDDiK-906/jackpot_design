@@ -1,0 +1,1456 @@
+/* Extra-Small Device*/
+@media (max-width:575px){
+	nav .form input {
+		margin-bottom: 20px;
+	}
+	nav .form {
+		background: url(../images/formbg.jpg) no-repeat right;
+	}
+	/* price */
+	#price .wow::after {
+		top: -30px;
+		bottom: 50px;
+	}
+	#price .wow::before {
+		top: -4px;
+		bottom: 95px;
+		left: 46px;
+		right: 46px;
+	}
+	/* game */
+	#game .down .one1:hover::before {
+		top: -2px;
+		bottom: 31px;
+		left: 34px;
+		right: 34px;
+	}
+	#game .down .wow:hover::before {
+		top: -2px;
+		bottom: 31px;
+		left: 34px;
+		right: 34px;
+	}
+	/* form */
+	nav .form .last {
+		display: block;
+	}
+	nav .form .main {
+		padding: 15% 20px 50px 20px;
+	}
+	nav .login_form .main {
+		padding: 35% 20px 50px 25px;
+	}
+	nav .form {
+		box-shadow: inset 0px 0px 10px 8px rgba(252, 177, 0,0.9);
+	}
+	.form .name {
+		display: block;
+	}
+	nav .form p {
+		margin-bottom: 10px !important;
+		font-size: 14px;
+	}
+	nav .form .last .icon i {
+		margin-right: 5px;
+	}
+	#copyright p {
+		font-size: 13px;
+		padding: 0 14px;
+	}
+	#ask .scroll {
+		margin-top: 30px !important;
+		margin: 0 15px;
+	}
+	/* loading page */
+	#loader{
+		align-items: initial;
+	}
+	#loader .main{
+		margin-top: 70%;
+	}
+	/* ======== Nav Bar ========= */
+	nav ul li {
+		margin-right: 0px;
+	}
+	nav ul .active a {
+		color: #ffffff;
+		background-image: none;
+		text-shadow: none;
+		filter: none;
+		box-shadow: none;
+	}
+	nav ul li a:hover{
+		color: #ff39dc;
+		background-image: none;
+		text-shadow: none;
+		filter: none;
+		box-shadow: none;
+	}
+	nav .navbar-toggler{
+		margin-right: 15px;
+		margin-top: 24px;
+		padding: 0 !important;
+		transition: 0.5s;
+	}
+	.fixed .navbar-toggler{
+		margin-top: 10px;
+	}
+	nav{
+		transition: 0.4s;
+	}
+	nav .navbar-toggler i {
+		padding: 5px 10px;
+		border-radius: 4px;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 400;
+		background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+	
+		text-shadow: 5px 5px 1px #5813b8;
+	
+		box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+		transition: 0.4s;
+	}
+	nav .navbar-toggler i:hover{
+		background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+	
+		text-shadow: 5px 5px 1px rgba(166, 0, 132,1); 
+	
+		box-shadow: 0px 6px 0px 0px rgba(102, 19, 85,1);
+	}
+	nav .logo a img {
+		width: 170px;
+		margin-left: 20px;
+	}
+	.fixed .logo a img {
+		width: 160px;
+		margin-top: -20px;
+	}
+	.fixed {
+		padding: 0 0 6px 0 !important;
+	}
+	.navbar-brand {
+		margin-right: 0 !important;
+		margin-top: 5px;
+	}
+	nav #navbarSupportedContent {
+		padding: 0 0 20px 0;
+		text-align: center;
+		background: #150035;
+		transition: 0.4s;
+		position: absolute;
+		top: 85px;
+		left: 0%;
+		left: 100%;
+		width: 100%;
+		margin: 0 auto;
+		transform: translateX(100%) scale(1);
+	}
+	nav .show {
+		transform: translateX(0%) scale(1)!important;
+		left: 0% !important;
+	}
+	nav ul li a {
+		font-size: 16px;
+		line-height: 40px;
+	}
+	nav .button a {
+		font-size: 16px;
+		padding: 9px 20px;
+	}
+	.fixed #navbarSupportedContent {
+		padding: 0 0 20px 0;
+	}
+	nav .form-inline{
+		justify-content: center;
+		padding-bottom: 30px;
+		margin-top: 20px !important;
+	}
+	nav ul li a {
+		padding: 5px 25px !important;
+		color: #ffffff;
+		line-height: 30px;
+	}
+	/* ======== Banner ========= */
+	#banner {
+		padding: 120px 0 80px 0;
+	}
+	#banner .shape {
+		display: none;
+	}
+	#banner .left .img img {
+		display: none;
+	}
+	#banner .right {
+		margin-top: 0px;
+	}
+	#banner .right h3 {
+		text-align: center;
+	}
+	#banner .right h1 {
+		font-size: 200px;
+		display: flex;
+		margin-top: 0px;
+		/* text-shadow: 2px 2px 3px rgba(255, 220, 40,1); */
+		justify-content: center;
+	}
+	#banner .right p {
+		margin-top: 0px;
+		width: auto;
+		padding: 0 22px;
+	}
+	#banner .right .button {
+		width: auto;
+	}
+	/* ======== Game ========= */
+	#game {
+		margin-bottom: 0px;
+		padding: 50px 0 50px 0;
+	}
+	#game .title {
+		margin-top: 0px;
+	}
+	#game .up {
+		transform: translateY(0%) skewY(0deg);
+		box-shadow: none;
+		margin-bottom: 40px;
+	}
+	#game .up .item {
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+		border-radius: 5px;
+		margin-bottom: 20px !important;
+		margin: 0 15px;
+		/* box-shadow: inset 0px 0px 30px 5px rgba(0,0,0,0.7); */
+		/* box-shadow: 0px 6px 0px 0px rgba(58,0,144,1); */
+		box-shadow: none;
+	}
+	#game .up .item .text {
+		transform: skewY(0deg);
+	}
+	#game .down .img {
+		height: 85%;
+		width: 85%;
+		margin-bottom: 30px;
+		margin: 0 auto;
+	}
+	#game .down .img .overlay {
+		background: rgba(0, 0, 0,0.7);
+		padding: 85px 0;
+		margin-bottom: 20px;
+		height: 101%;
+	}
+	#game .down {
+		margin-top: 25px;
+	}
+	/*========= Free Spin ========*/
+	#spin {
+		padding-top: 50px;
+	}
+	#spin .left .img {
+		display: flex;
+		justify-content: center;
+	}
+	#spin .left .img img {
+		width: 85%;
+		margin-left: 0px;
+	}
+	#spin .right {
+		margin-top: 5%;
+		margin-left: 0;
+	}
+	#spin .title h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+	#spin .right p {
+		font-size: 15px;
+		padding: 25px 15px 0 15px;
+		text-align: center;
+	}
+	#spin .right .pee{
+		padding: 20px 3px 20px 3px;
+	}
+	#spin .right .button {
+		margin-top: 20px;
+		text-align: center;
+	}
+	/* ============ Price ============= */
+	#price {
+		padding: 40px 0 10px 0 !important;
+	}
+	#price .title h1 {
+		margin-top: 0px !important;
+		font-size: 40px;
+	}
+	#price .title {
+		margin-bottom: 60px;
+	}
+	#price .item {
+		width: auto;
+		margin: 0 35px;
+		position: relative;
+		margin-bottom: 100px;
+	}
+	#price .item ul{
+		margin-bottom: 0;
+	}
+	#price .item ul li {
+		line-height: 30px;
+		font-size: 14px;
+	}
+	#price .item .button a {
+		font-size: 20px !important;
+	}
+	#price .item h4 {
+		padding: 15px 0;
+	}
+	#price .item h1 {
+		margin: -30px 0 10px 0;
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+	#price .item h2 {
+		font-size: 40px;
+	}
+	#price .item p {
+		padding: 5px 0 13px 0;
+	}
+	/* =========== Ask =========== */
+	#ask {
+		padding: 40px 0 50px 0;
+	}
+	#ask .title h1 {
+		text-align: center !important;
+		font-size: 27px;
+	}
+	/* keyframe */
+	#ask .title .keyframe {
+		margin-top: 20px;
+	}
+	/* accordian */
+	#ask .accordion {
+		top: 17%;
+		left: 0%;
+		width: auto;
+		margin: 0 30px;
+	}
+	#ask .left {
+		padding: 0 0 400px 0;
+	}
+	#ask .btn-link {
+		font-size: 13px;
+		padding: 12px 9px 10px 0px;
+		font-weight: 600;
+		width: 100%;
+		text-align: left !important;
+	}
+	#ask .card-body p {
+		font-size: 12.5px;
+	}
+	#ask .card-header {
+		padding: 0 10px !important;
+	}
+	#ask .card {
+		margin-bottom: 5px;
+		padding: 0 9px;
+	}
+	#ask .btn-link i {
+		float: none;
+		position: absolute;
+		right: 5px;
+		top: 15px;
+	}
+	#ask .card-body {
+		padding: 0 7px 10px 7px;
+	}
+	/* counter */
+	#ask .counter {
+		margin-top: 30px;
+		display: block;
+	}
+	#ask .counter h4 {
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	#ask .syotimer-cell {
+		margin: 0 10px;
+	}
+	/* nice scroll */
+	#ask #ascrail2000 {
+		right: 22px !important;
+	}
+	#ask .scroll .main p {
+		font-size: 14px;
+	}
+	#ask .scroll .main span {
+		font-size: 13px;
+		margin-right: 22px;
+	}
+	#ask .scroll .main::after {
+		width: 95%;
+	}
+	/* subscribe */
+	#subscribe .item h1 {
+		text-align: center;
+	}
+	#subscribe .left .box {
+		margin: 0 15px;
+	}
+	#subscribe .right {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	#subscribe .right .main {
+		margin: 0 15px;
+	}
+	#subscribe .right .img {
+		margin-right: 10px;
+	}
+	#subscribe .right .img img{
+		width: 50px;
+	}
+	/* Footer */
+	#footer .item h1 {
+		text-align: center;
+	}
+	/* item 1 about jackpot */
+	#footer .item1 p {
+		text-align: center;
+		padding: 0 15px;
+	}
+	#footer .item1 .icon{
+		text-align: center;
+	}
+	#footer .item1 .icon i {
+		margin: 0 5px;
+	}
+	/* item 2 important link */
+	#footer .item h1 {
+		margin-top: 50px;
+	}
+	#footer .item2 .main {
+		display: block;
+		text-align: center;
+	}
+	#footer .item2 .main .left {
+		margin-right: 0px;
+	}
+	#footer .item2 .right {
+		margin-top: -13px;
+		width: auto !important;
+	}
+	#footer .item2 .main ul li {
+		font-size: 15px;
+		line-height: 27px;
+	}
+	/*  security*/
+	#footer .item3 h1 {
+		margin-top: 30px;
+	}
+	#footer .item3 {
+		padding: 0 15px;
+		text-align: center;
+	}
+	#footer .item3 .text p {
+		padding: 10px 25px 0 15px;
+		font-size: 14px;
+	}
+	#footer .item3 .img {
+		margin-left: 13%;
+	}
+	#footer .item3 .security {
+		margin: 30px 0 15px 0;
+	}
+	/* back to top */
+	#backTotop {
+		right: 10px;
+		width: 30px;
+		padding: 10px 20px !important;
+	}
+	#backTotop i {
+		font-size: 18px;
+	}
+	#game .down .img .overlay .button {
+		margin-top: 30px;
+	}
+	#game .up .item h1 {
+		margin-bottom: 10px;
+	}
+	#game .up .item {
+		padding: 20px 0 15px 0;
+		margin: 0 37px;
+	}
+	#game .up .item p {
+		padding: 0 20px;
+	}
+}
+/* Small Device */
+@media (min-width:576px) and (max-width:767px){
+	/* price */
+	#price .wow::after {
+		top: -34px;
+		bottom: 55px;
+		filter: blur(84px);
+	}
+	#price .wow::before {
+		top: -4px;
+		bottom: 76px;
+		left: 110px;
+		right: 110px;
+	}
+	/* game */
+	#game .down .wow:hover::before {
+		bottom: -2px;
+		left: 3px;
+		right: 3px;
+	}
+	/* form */
+	nav .form {
+		box-shadow: inset 0px 0px 10px 8px rgba(252, 177, 0,0.9);
+	}
+	nav .form p {
+		margin-bottom: 10px !important;
+		font-size: 13px;
+		margin-right: 5px;
+	}
+	nav .form .last .icon i {
+		height: 35px;
+		width: 35px;
+		font-size: 20px;
+		line-height: 35px;
+		margin-right: 3px;
+	}
+	nav .form {
+		background: url(../images/formbg.jpg) no-repeat right;
+	}
+	/* back to top */
+	#backTotop {
+		right: 10px;
+		width: 30px;
+		padding: 10px 20px !important;
+	}
+	#backTotop i {
+		font-size: 18px;
+	}
+	/* ======== Nav Bar ========= */
+	nav ul .active a {
+		color: #ffffff;
+		background-image: none;
+		text-shadow: none;
+		filter: none;
+		box-shadow: none;
+	}
+	nav ul li a:hover{
+		color: #ff39dc;
+		background-image: none;
+		text-shadow: none;
+		filter: none;
+		box-shadow: none;
+	}
+	nav .navbar-toggler{
+		margin-right: 15px;
+		margin-top: 24px;
+		padding: 0 !important;
+		transition: 0.5s;
+	}
+	.fixed .navbar-toggler{
+		margin-top: 10px;
+	}
+	nav ul li a {
+		font-size: 18px;
+	}
+	nav .button a {
+		font-size: 18px;
+		padding: 9px 20px;
+	}
+	nav{
+		transition: 0.4s;
+	}
+	nav .navbar-toggler i {
+		padding: 5px 10px;
+		border-radius: 4px;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 400;
+		background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+	
+		text-shadow: 5px 5px 1px #5813b8;
+	
+		box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+		transition: 0.4s;
+	}
+	nav .navbar-toggler i:hover{
+		background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+	
+		text-shadow: 5px 5px 1px rgba(166, 0, 132,1); 
+	
+		box-shadow: 0px 6px 0px 0px rgba(102, 19, 85,1);
+	}
+	nav .logo a img {
+		width: 170px;
+		margin-left: 20px;
+	}
+	.fixed .logo a img {
+		width: 160px;
+		margin-top: -20px;
+	}
+	.fixed {
+		padding: 0 0 6px 0 !important;
+	}
+	.navbar-brand {
+		margin-right: 0 !important;
+		margin-top: 5px;
+	}
+	nav #navbarSupportedContent {
+		padding: 0 0 20px 0;
+		text-align: center;
+		background: #150035;
+		transition: 0.4s;
+		position: absolute;
+		top: 85px;
+		left: 0%;
+		/* left: 100%; */
+		width: 100%;
+		transform: translateX(100%) scale(1);
+	}
+	nav .show {
+		transform: translateX(0%) scale(1)!important;
+		/* left: 0% !important; */
+	}
+	.fixed #navbarSupportedContent {
+		padding: 0 0 20px 0;
+	}
+	nav .form-inline{
+		justify-content: center;
+		padding-bottom: 30px;
+	}
+	nav .button {
+		margin: 0 10px !important;
+	}
+	nav .button a {
+		margin: 0 0px !important;
+	}
+	nav ul li a {
+		padding: 5px 25px !important;
+		color: #ffffff;
+	}
+	nav .form-inline {
+		justify-content: center;
+		padding-bottom: 30px;
+		margin-top: 30px !important;
+	}
+	/* ======== Banner ========= */
+	#banner {
+		padding: 120px 0 80px 0;
+	}
+	#banner .left .img img {
+		display: none;
+	}
+	#banner .right {
+		margin-top: 0px;
+	}
+	#banner .right h3 {
+		text-align: center;
+	}
+	#banner .right h1 {
+		font-size: 200px;
+		display: flex;
+		margin-top: 0px;
+		/* text-shadow: 2px 2px 3px rgba(255, 220, 40,1); */
+		justify-content: center;
+	}
+	#banner .right p {
+		margin-top: 0px;
+		width: auto;
+		padding: 0 22px;
+	}
+	#banner .right .button {
+		width: auto;
+	}
+	/* ======== Game ========= */
+	#game {
+		margin-bottom: 0px;
+		padding: 50px 0 50px 0;
+	}
+	#game .title {
+		margin-top: 0px;
+	}
+	#game .up {
+		transform: translateY(0%) skewY(0deg);
+		box-shadow: none;
+		margin-bottom: 30px;
+	}
+	#game .up .item h2 {
+		font-size: 28px;
+	}
+	#game .up .item {
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+		border-radius: 5px;
+		margin-bottom: 20px !important;
+		margin: 0 5px;
+		box-shadow: inset 0px 0px 20px 3px rgba(0,0,0,0.7) !important;
+		box-shadow: none;
+		padding: 30px 0 35px 0;
+	}
+	#game .up .item p {
+		font-size: 14px;
+	}
+	#game .up .item h1 {
+		font-size: 45px;
+		margin-bottom: 10px;
+	}
+	#game .up .item .text {
+		transform: skewY(0deg);
+	}
+	#game .padding{
+		padding: 0;
+	}
+	#game .down .img {
+		width: auto;
+		margin: 0 auto;
+	}
+	#game .down .img{
+		margin:0 5px !important;
+	}
+	#game .down .img .overlay {
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	#game .down {
+		margin-top: 25px;
+	}
+	#game .title h1{
+		margin-bottom: 35px !important;
+	}
+	#game .down .img .overlay h4 {
+		font-size: 18px;
+	}
+	#game .down .img .overlay .button {
+		margin-top: 20px;
+	}
+	#game .down .button a {
+		font-size: 15px;
+		padding: 8px 20px;
+	}
+	/*========= Free Spin ========*/
+	#spin {
+		margin-top: 0px;
+		margin-bottom: 60px;
+	}
+	#spin #scene .img2 {
+		width: 70%;
+		margin-left: 7%;
+	}
+	#spin #scene .img1 {
+		width: 46%;
+		margin-top: 35%;
+		margin-left: 65px;
+	}
+	#spin .right {
+		margin-top: 3%;
+		margin-left: 0;
+	}
+	#spin .title h1 {
+		text-align: center;
+		font-size: 40px;
+	}
+	#spin .right p {
+		font-size: 15px;
+		padding: 25px 15px 0 15px;
+		text-align: center;
+	}
+	#spin .right .pee {
+		padding: 20px 28px 20px 28px;
+	}
+	#spin .right .button {
+		margin-top: 20px;
+		text-align: center;
+	}
+	/* ============ Price ============= */
+	#price {
+		padding: 40px 0 20px 0 !important;
+	}
+	#price .title h1 {
+		margin-top: 0px !important;
+		font-size: 40px;
+	}
+	#price .title {
+		margin-bottom: 60px;
+	}
+	#price .item {
+		width: auto;
+		margin: 0 100px;
+		position: relative;
+		margin-bottom: 80px;
+	}
+	#price .item ul{
+		margin-bottom: 0;
+	}
+	#price .item ul li {
+		line-height: 35px;
+		font-size: 15px;
+	}
+	#price .item .button a {
+		font-size: 20px !important;
+	}
+	#price .item h4 {
+		padding: 15px 0;
+	}
+	#price .item .button {
+		margin-top: -10px;
+	}
+	#price .item h1 {
+		margin: -30px 0 20px 0;
+		margin-bottom: 5px;
+	}
+	#price .item h2 {
+		font-size: 40px;
+	}
+	#price .item p {
+		padding: 10px 0 13px 0;
+	}
+	/* =========== Ask =========== */
+	#ask {
+		padding: 40px 0 50px 0;
+	}
+	#ask .title h1 {
+		text-align: center !important;
+		font-size: 35px;
+	}
+	/* keyframe */
+	#ask .title .keyframe {
+		margin-top: 27px;
+	}
+	/* accordian */
+	#ask .card-body p {
+		font-size: 14px;
+	}
+	#ask .accordion {
+		top: 25%;
+		left: 0%;
+		width: auto;
+		margin: 0 30px;
+	}
+	#ask .left {
+		padding: 0 0 350px 0;
+	}
+	#ask .btn-link {
+		font-size: 18px;
+		padding: 12px 161px 10px 0px;
+		width: 100%;
+		text-align: left !important;
+	}
+	#ask .card-header {
+		padding: 0 10px !important;
+	}
+	#ask .card {
+		margin-bottom: 5px;
+		/* padding: 0px 115.5px 0 0; */
+	}
+	#ask .btn-link i {
+		float: none;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	#ask .card-body {
+		padding: 0 7px 10px 7px;
+	}
+	#ask .right {
+		margin-top: 40px;
+	}
+	/* counter */
+	#ask .counter {
+		margin-top: 30px;
+		display: block;
+	}
+	#ask .counter h4 {
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	#ask .syotimer-cell {
+		margin: 0 10px;
+	}
+	/* nice scroll */
+	#ask #ascrail2000 {
+		right: 22px !important;
+	}
+	#ask .scroll .main p {
+		font-size: 14px;
+	}
+	#ask .scroll .main span {
+		font-size: 13px;
+		margin-right: 22px;
+	}
+	#ask .scroll .main::after {
+		width: 95%;
+	}
+	/* subscribe */
+	#subscribe .item h1 {
+		text-align: center;
+	}
+	#subscribe .left .box {
+		margin: 0 15px;
+	}
+	#subscribe .right {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	#subscribe .right .main {
+		margin: 0 15px;
+		justify-content: center;
+	}
+	#subscribe .right .img {
+		margin-right: 10px;
+	}
+	/* Footer */
+	#footer .item h1 {
+		text-align: center;
+	}
+	/* item 1 about jackpot */
+	#footer .item1 p {
+		text-align: center;
+		padding: 0 15px;
+	}
+	#footer .item1 .icon{
+		text-align: center;
+	}
+	#footer .item1 .icon i {
+		margin: 0 5px;
+	}
+	/* item 2 important link */
+	#footer .item h1 {
+		margin-top: 50px;
+	}
+	#footer .item2 .main {
+		display: block;
+		text-align: center;
+	}
+	#footer .item2 .main .left {
+		margin-right: 0px;
+	}
+	#footer .item2 .right {
+		margin-top: -13px;
+	}
+	#footer .item2 .main ul li {
+		font-size: 15px;
+		line-height: 31px;
+	}
+	/*  security*/
+	#footer .item3 {
+		text-align: center;
+	}
+	#footer .item3 .text p {
+		padding: 10px 0px 0 0px;
+	}
+	#footer .item3 .img {
+		margin-left: 15%;
+	}
+	#footer .item3 .security {
+		margin: 50px 0 15px 0;
+	}
+	#footer .item2 .main .right {
+		width: auto;
+	}
+	#copyright p {
+		padding: 0 50px;
+	}
+}
+/* Medium Device */
+@media (min-width:768px) and (max-width:991px){
+	#price .wow::before {
+		bottom: 96px;
+		left: 6px;
+		right: 6px;
+	}
+	#price .wow::after {
+		top: -34px;
+		bottom: 46px;
+		left: 24px;
+		right: -21px;
+		filter: blur(40px);
+	}
+	nav .form .main {
+		padding: 12% 50px 50px 50px;
+	}
+	nav .form {
+		background: url(../images/formbg.jpg) no-repeat right;
+	}
+/* ======== Nav Bar ========= */
+nav .navbar-toggler{
+	margin-right: 15px;
+	margin-top: 24px;
+	padding: 0 !important;
+	transition: 0.5s;
+}
+.fixed .navbar-toggler{
+	margin-top: 10px;
+}
+nav{
+	transition: 0.4s;
+}
+nav .navbar-toggler i {
+	padding: 5px 10px;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+
+	text-shadow: 5px 5px 1px #5813b8;
+
+	box-shadow: 0px 6px 0px 0px rgba(58,0,144,1);
+	transition: 0.4s;
+}
+nav .navbar-toggler i:hover{
+	background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+
+	text-shadow: 5px 5px 1px rgba(166, 0, 132,1); 
+
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85,1);
+}
+nav ul li {
+	margin-right: 0px;
+}
+nav .logo a img {
+	width: 130px;
+	margin-left: 0px;
+	margin-top: -10px;
+}
+.fixed .logo a img {
+	width: 130px;
+	margin-left: 0px;
+	margin-top: -10px;
+}
+.fixed .navbar-brand {
+	margin-top: 0px;
+}
+.navbar-brand {
+	margin-right: 0 !important;
+	margin-top: 5px;
+}
+nav #navbarSupportedContent {
+	padding: 40px 0 20px 0;
+}
+.fixed #navbarSupportedContent {
+	padding: 10px 0;
+}
+nav .form-inline{
+	justify-content: center;
+	padding-bottom: 0px;
+}
+nav .button a {
+	margin: 0 13px !important;
+}
+nav ul li a {
+	padding: 5px 10px !important;
+	color: #a60084;
+	font-size: 13px;
+}
+nav .form-inline {
+	justify-content: center;
+	padding-bottom: 0px;
+	margin-top: 0px !important;
+}
+nav .button{
+	margin: 0 2px !important;
+}
+nav .button a {
+	font-size: 15px;
+	padding: 7px 15px;
+	margin: 0 !important;
+}
+/* ======== Banner ========= */
+#banner .left .img img {
+	display: block;
+	margin-left: -15px;
+}
+#banner .right {
+	margin-top: 0px;
+}
+#banner .right h3 {
+	text-align: center;
+}
+#banner .right h1 {
+	font-size: 150px;
+	display: flex;
+	margin-top: 0px;
+	/* text-shadow: 2px 2px 3px rgba(255, 220, 40,1); */
+	justify-content: center;
+}
+#banner .right p {
+	margin-top: 0px;
+	width: auto;
+	padding: 0 22px;
+}
+#banner .right .button {
+	width: auto;
+}
+/* ======== Game ========= */
+#game {
+	margin-bottom: 0px;
+	padding: 50px 0 0px 0;
+}
+#game .title {
+	margin-top: -80px;
+}
+#game .up {
+	transform: translateY(-80%) skewY(1deg);
+}
+#game .up .item h1 {
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+#game .up .item h2 {
+	font-size: 25px;
+	margin-bottom: 8px;
+}
+#game .up .item p {
+	font-size: 15px;
+	padding: 0 20px;
+}
+#game .down .img {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+}
+#game .down .img .overlay {
+	padding: 85px 0;
+	margin-bottom: 20px;
+	height: 101%;
+}
+#game .down {
+	margin-top: 25px;
+	padding-bottom: 70px;
+}
+#game .title h1{
+	margin-bottom: 35px !important;
+}
+/*========= Free Spin ========*/
+#spin {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+#spin #scene{
+	margin-top: 9% !important;
+}
+#spin .left .img{
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+#spin .left .img img {
+	margin-left: 0px;
+}
+#spin .right {
+	margin-top: 0%;
+	margin-left: 0;
+}
+#spin .title h1 {
+	text-align: center;
+	font-size: 40px;
+}
+#spin .right p {
+	font-size: 15px;
+	text-align: center;
+}
+#spin .right .pee {
+	padding: 20px 0px 20px 0px;
+}
+#spin .right .button {
+	margin-top: 20px;
+	text-align: center;
+}
+/* ============ Price ============= */
+#price {
+	padding: 40px 0 50px 0 !important;
+}
+#price .title h1 {
+	margin-top: 20px !important;
+}
+#price .common {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+#price .item {
+	width: 100%;
+	margin: 0px 10px;
+	position: relative;
+	margin-bottom: 100px;
+}
+#price .item h1 {
+	margin: -30px 0 10px 0;
+	font-size: 30px;
+}
+#price .item ul li {
+	font-size: 14px;
+	line-height: 30px;
+}
+#price .item h2 {
+	font-size: 40px;
+}
+#price .item ul {
+	margin-bottom: 5px;
+}
+#price .item p {
+	padding: 5px 0 15px 0;
+}
+/* =========== Ask =========== */
+#ask {
+	padding: 40px 0 50px 0;
+}
+#ask .title h1 {
+	text-align: center !important;
+	font-size: 33px;
+}
+#game .down .img .overlay .button {
+	margin-top: 25px;
+}
+#game .down .img .overlay h4 {
+	font-size: 22px;
+}
+#game .down .button a {
+	font-size: 16px;
+}
+/* keyframe */
+#ask .title .keyframe {
+	margin-top: 27px;
+}
+/* accordian */
+#ask .accordion {
+	top: 22%;
+	left: 0%;
+	width: auto;
+	margin: 0 0 0 10px;
+}
+#ask .left {
+	padding: 0 0 450px 0;
+}
+#ask .btn-link {
+	padding: 12px 9px 10px 0px;
+	width: 100%;
+	text-align: left !important;
+	font-size: 17px;
+}
+#ask .card-header {
+	padding: 0 10px !important;
+}
+#ask .card {
+	padding: 0 25px 0 0;
+	margin-bottom: 20px;
+}
+#ask .scroll .main {
+	margin-bottom: 30px;
+}
+#ask #boxscroll2 {
+	height: 275px;
+}
+#ask .btn-link i {
+	float: none;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+#ask .card-body {
+	padding: 0 10px 10px 10px;
+}
+#ask .card-body p {
+	font-size: 14px;
+}
+#ask .right {
+	margin-top: 0px;
+}
+/* counter */
+#ask .counter {
+	margin-top: 50px;
+	display: block;
+}
+#ask .counter h4 {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+#ask .syotimer-cell {
+	margin: 0 10px;
+}
+/* nice scroll */
+#ask #ascrail2000 {
+	right: 22px !important;
+}
+#ask .scroll .main p {
+	font-size: 14px;
+}
+#ask .scroll .main span {
+	font-size: 13px;
+	margin-right: 22px;
+}
+#ask .scroll .main::after {
+	width: 95%;
+}
+/* subscribe */
+#subscribe .item h1 {
+	text-align: center;
+}
+#subscribe .left .box {
+	margin: 0 15px;
+}
+#subscribe .right {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#subscribe .right .main {
+	margin: 0 15px;
+	justify-content: center;
+}
+#subscribe .right .img {
+	margin-right: 10px;
+}
+/* Footer */
+#footer .item h1 {
+	text-align: center;
+}
+/* item 1 about jackpot */
+#footer .item1 p {
+	text-align: center;
+	padding: 0 15px;
+}
+#footer .item1 .icon{
+	text-align: center;
+}
+#footer .item1 .icon i {
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+}
+/* item 2 important link */
+#footer .item h1 {
+	margin-top: 50px;
+}
+#footer .item2 .main {
+	display: block;
+	text-align: center;
+}
+#footer .item2 .main .left {
+	margin-right: 0px;
+}
+#footer .item2 .right {
+	margin-top: -13px;
+	width: auto !important;
+}
+#footer .item2 .main ul li {
+	font-size: 15px;
+	line-height: 31px;
+}
+/*  security*/
+#footer .item3 {
+	text-align: center;
+}
+#footer .item3 .text p {
+	padding: 0px 0px 0 0px;
+}
+#footer .item3 .img {
+	margin-left: 15%;
+}
+#footer .item3 .security {
+	margin: 50px 0 40px 0;
+}
+}
+/* Large Device */
+@media (min-width:992px) and (max-width:1199px){
+	nav .form p {
+		margin-bottom: 10px !important;
+		font-size: 13px;
+		margin-right: 5px;
+	}
+	nav .form .last .icon i {
+		height: 35px;
+		width: 35px;
+		font-size: 20px;
+		line-height: 35px;
+		margin-right: 3px;
+	}
+/* ============ nav ========== */
+nav .button {
+	margin: 0px 5px;
+}
+nav ul li a {
+	font-size: 15px;
+	padding: 6px 10px !important;
+}
+nav .button a {
+	font-size: 16px;
+	padding: 8px 20px;
+}
+nav ul li {
+	margin-right: 5px;
+}
+#ask {
+	padding: 80px 0;
+}
+/* ============ Banner ========== */
+#banner .right h1 {
+	font-size: 280px;
+}
+#banner .left .img img {
+	width: 100%;
+	margin-left: -5px;
+	margin-top: 45px;
+}
+/* =========== spin ========== */
+#spin {
+	margin-bottom: 50px;
+}
+#spin .left .img img {
+	width: 100%;
+	margin-left: 0px;
+}
+#spin .right {
+	margin-top: 0%;
+}
+/* ======== price ======== */
+#price .item ul li {
+	font-size: 15px;
+	line-height: 35px;
+}
+#price .item h1 {
+	margin: -20px 0 10px 0;
+}
+#price .item ul {
+	margin-bottom: 5px;
+}
+/* ========= ask ========== */
+#ask .title h1 {
+	font-size: 40px;
+}
+#ask .counter h4 {
+	font-size: 17px;
+	margin: 20px 0px 0 0;
+}
+#ask .syotimer-cell {
+	margin-left: 18px;
+}
+#ask .card {
+	margin-bottom: 10px;
+}
+#ask .accordion {
+	top: 24.5%;
+}
+/* ======= subscribe ======= */
+#subscribe .right {
+	margin-left: 90px;
+}
+/* ===== footer ====== */
+#footer .item2 {
+	padding-left: 22px;
+}
+#footer .item3 {
+	padding-left: 33px;
+}
+#footer .item3 .security .text p {
+	padding: 10px 50px 0 35px;
+}
+#footer .item3 .user .text p {
+	padding: 10px 0px 0 35px;
+}
+}
